@@ -1,21 +1,4 @@
 # The Evolution Project
-<<<<<<< HEAD
-##### Designed, Built, and Maintained by WON_MEDIA
-
-
-
-
-Title (can be text or an image)
-Introduction (what it's about & why you wrote it)
-How to install
-How to use
-Technologies used (libraries & versions, helps recruiters)
-Acknowledgments
-
-Table of contents (useful if your README is long)
-List of features
-Examples of use (with code or images)
-=======
 
 Designed, built, and maintained by WON_MEDIA.co.uk
 
@@ -37,7 +20,7 @@ URL:
 
 GitHub:
 
-Launch version
+Launch version:
 
 # Project brief:
 
@@ -59,8 +42,6 @@ Launch version
 
 ### Features:
 
----
-
 - Home page with information about the project.
     - Sections include:
         - Hero.
@@ -73,6 +54,8 @@ Launch version
     - List of the top visions (Will be interactive, static for now)
     - Details from one of the Visions
 
+---
+
 ### Future features:
 
 ---
@@ -84,4 +67,3 @@ Launch version
 - Wikipedia database with collated information from meetings.
 - Forum to discuss topis.
 - Membership levels.
->>>>>>> 16557825e59f23a9e1b5f14356bfeb6169ea9cbd
