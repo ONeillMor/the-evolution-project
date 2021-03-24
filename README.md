@@ -67,3 +67,23 @@ Launch version
 - Wikipedia database with collated information from meetings.
 - Forum to discuss topis.
 - Membership levels.
+
+
+#Working Updates
+
+24/03/2021
+Header and footer added. Both layouts came from examples online and have been edited and styled.
+
+###Sources:
+######Header
+https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bc9e2cb-609e-45b2-9bee-fd0aee9437e3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bc9e2cb-609e-45b2-9bee-fd0aee9437e3/Untitled.png)
+
+Styles have been changed to suit potential colour pallet. 
+Standard burger icon that comes with bootstrap template is just an image but can be changed to a responsive css element in the future.
+
+######Footer
+https://mdbootstrap.com/docs/standard/navigation/footer/
+
+Some icons removed and style edited, text changed and styled, designer details added.
