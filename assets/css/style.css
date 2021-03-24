@@ -9,7 +9,49 @@
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--clr-mn-1);
 }
+body {
+    line-height: 1.2rem;
+}
 :root {
     --clr-mn-1:#0d5175;
+    --clr-mn-2:#11c711;
 }
+
+/*---//NavBar Style//---*/
+
+/*Overrule bootstrap styles*/
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/*Overrule bootstrap styles*/
+.navbar {
+    border-bottom: 2px solid var(--clr-mn-2);
+    width: 90%;
+    left: 5%;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav-item {
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+/*---xx//NavBar Style//xx---*/
+
+/*---//Footer Style//---*/
+.green {
+    color: var(--clr-mn-2);
+}
+.copyright {
+    font-size: 1.5rem;
+}
+.designer {
+    margin-left: 2rem ;
+    font-size: 1rem;
+}
+/*---xx//Footer Style//xx---*/
+
+
 
