@@ -20,7 +20,7 @@ URL:
 
 GitHub:
 
-Launch version
+Launch version:
 
 # Project brief:
 
@@ -42,8 +42,6 @@ Launch version
 
 ### Features:
 
----
-
 - Home page with information about the project.
     - Sections include:
         - Hero.
@@ -55,6 +53,8 @@ Launch version
         - (Future feature: Interactive interface using JS and a linked database)
     - List of the top visions (Will be interactive, static for now)
     - Details from one of the Visions
+
+---
 
 ### Future features:
 
