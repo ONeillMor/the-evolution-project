@@ -1,5 +1,5 @@
+/*----------------------//Root Styles//---------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
-
 * {
 	margin: 0;
 	padding: 0;
@@ -7,7 +7,6 @@
 	font-size: 100%;
 	vertical-align: baseline;
     font-family: 'Titillium Web', sans-serif;
-    /* background-color: var(--clr-mn-1); */
 }
 body {
     line-height: 1.2rem;
@@ -22,15 +21,14 @@ h1 {
     --clr-mn-2: #4CAF50;
     --clr-txt-l: rgba(255,255,255,.8);
 }
+/*----------------------xx//Root Styles//xx---------------------------*/
 
-/*---//NavBar Style//---*/
-
+/*----------------------//Navbar Style//---------------------------*/
 /*Overrule bootstrap styles*/
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgba(255,255,255,.8);
 }
-/*Overrule bootstrap styles*/
 .navbar {
     border-bottom: 2px solid var(--clr-mn-2);
     width: 90%;
@@ -44,11 +42,9 @@ h1 {
     padding-left: 2rem;
     font-size: 1.2rem;
 }
-/*---xx//NavBar Style//xx---*/
+/*----------------------xx//Navbar Style//xx---------------------------*/
 
-
-
-/*---//Hero Style//---*/
+/*----------------------//Hero Style//---------------------------*/
 .hero {
     color: rgba(255,255,255,.8);;
 }
@@ -68,12 +64,13 @@ h1 {
 .logo-img {
     height: 200px;
     width: 200px;
-    padding-left: ;
     border-radius: 50%;
 }
-/*---xx//Hero Style//xx---*/
+/*----------------------xx//Hero Style//xx---------------------------*/
 
-/*---//Button Style//---*/
+/*----------------------//Components//---------------------------*/
+
+/*-------------//Buttons//------------- */
 /*Fancy link source - https://www.youtube.com/watch?v=ceNMP-aQkQ4&t=949s*/
 .fancy-link {
     position: relative;
@@ -99,7 +96,7 @@ h1 {
     transform-origin: left;
     color: var(--clr-mn-2);
 }
-/*Wayne's code*/
+/*Wayne's code below*/
 a.fancy-link {
     font-size: 1.1em;
     color: var(--clr-mn-2);
@@ -107,8 +104,10 @@ a.fancy-link {
 a.fancy-link:hover {
     color: var(--clr-mn-2);
 }
+/*-------------xx//Buttons//xx------------- */
+/*----------------------xx//Components//xx---------------------------*/
 
-/*---//Footer Style//---*/
+/*----------------------//Footer Style//---------------------------*/
 .green {
     color: var(--clr-mn-2);
 }
@@ -119,4 +118,4 @@ a.fancy-link:hover {
     margin-left: 2rem ;
     font-size: 1rem;
 }
-/*---xx//Footer Style//xx---*/
+/*----------------------xx//Footer Style//xx---------------------------*/
