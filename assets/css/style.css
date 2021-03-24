@@ -7,14 +7,20 @@
 	font-size: 100%;
 	vertical-align: baseline;
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--clr-mn-1);
+    /* background-color: var(--clr-mn-1); */
 }
 body {
     line-height: 1.2rem;
+    background-color: var(--clr-mn-1);
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
 }
 :root {
-    --clr-mn-1:#0d5175;
-    --clr-mn-2:#11c711;
+    --clr-mn-1: #0d5175;
+    --clr-mn-2: #4CAF50;
+    --clr-txt-l: rgba(255,255,255,.8);
 }
 
 /*---//NavBar Style//---*/
@@ -40,6 +46,68 @@ body {
 }
 /*---xx//NavBar Style//xx---*/
 
+
+
+/*---//Hero Style//---*/
+.hero {
+    color: rgba(255,255,255,.8);;
+}
+.container {
+    margin-top: 150px;
+}
+.title {
+    color: var(--clr-mn-2);
+}
+.quick-pitch {
+    width: 50ch;
+    padding-top: .1rem;
+}
+.hero-left {
+    padding-right: 4rem;
+}
+.logo-img {
+    height: 200px;
+    width: 200px;
+    padding-left: ;
+    border-radius: 50%;
+}
+/*---xx//Hero Style//xx---*/
+
+/*---//Button Style//---*/
+/*Fancy link source - https://www.youtube.com/watch?v=ceNMP-aQkQ4&t=949s*/
+.fancy-link {
+    position: relative;
+}
+.fancy-link::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 87%;
+    height: 2px;
+    background-color: currentColor;
+    transform: scalex(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+    color: var(--clr-mn-2);
+}
+.fancy-link-2::after {
+    width: 83%;
+}
+.fancy-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    color: var(--clr-mn-2);
+}
+/*Wayne's code*/
+a.fancy-link {
+    font-size: 1.1em;
+    color: var(--clr-mn-2);
+}
+a.fancy-link:hover {
+    color: var(--clr-mn-2);
+}
+
 /*---//Footer Style//---*/
 .green {
     color: var(--clr-mn-2);
@@ -52,6 +120,3 @@ body {
     font-size: 1rem;
 }
 /*---xx//Footer Style//xx---*/
-
-
-
