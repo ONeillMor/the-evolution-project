@@ -61,9 +61,7 @@ h1 {
 .hero-info {
     margin-top: 200px;
 }
-/* .container {
-    margin: auto auto;
-} */
+
 .title {
     color: var(--light);
 }
@@ -98,7 +96,6 @@ h1 {
 .steps > * {
     display: block;
     margin-left: 20px;
-
 }
 
 .how-head {
@@ -170,6 +167,34 @@ h1 {
 }
 /*----------------------xx//Why it works Style//xx---------------------------*/
 
+/*----------------------//Visions introduction//---------------------------*/
+.vision-intro {
+    background-color: var(--light);
+    text-align: center;
+}
+.heading-dark {
+    text-align: center;
+    padding: 2rem 0 1.5rem;
+}
+.vision-steps {
+    /* border: 1px solid red; */
+    height: 200px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.vision-intro * span {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--green);
+}
+.btm-row {
+    padding: 2rem 0 1rem 0;
+}
+
+/*----------------------xx//Visions introduction//xx---------------------------*/
+
+
 /*----------------------//Footer Style//---------------------------*/
 .green {
     color: var(--green);
@@ -181,9 +206,10 @@ h1 {
     margin-left: 2rem ;
     font-size: 1rem;
 }
-.text, .heading {
+.text {
     text-align: center;
 }
+
 
 /*----------------------xx//Footer Style//xx---------------------------*/
 
