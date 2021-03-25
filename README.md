@@ -74,6 +74,9 @@ Launch version:
 24/03/2021
 Header and footer added. Both layouts came from examples online and have been edited and styled.
 
+25/03/2021
+How it works section has been added and styled a little.
+
 ###Sources:
 ######Header
 https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975
@@ -82,6 +85,9 @@ https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975
 
 Styles have been changed to suit potential colour pallet. 
 Standard burger icon that comes with bootstrap template is just an image but can be changed to a responsive css element in the future.
+
+
+
 
 ######Footer
 https://mdbootstrap.com/docs/standard/navigation/footer/
