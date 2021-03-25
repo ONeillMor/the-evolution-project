@@ -8,6 +8,7 @@
 	vertical-align: baseline;
     font-family: 'Titillium Web', sans-serif;
 }
+
 body {
     line-height: 1.2rem;
     background-color: var(--clr-mn-1);
@@ -18,8 +19,16 @@ h1 {
 }
 :root {
     --clr-mn-1: #0d5175;
-    --clr-mn-2: #4CAF50;
-    --clr-txt-l: rgba(255,255,255,.8);
+    ----green: #4CAF50;
+    --light: rgba(255, 255, 255, 0.85);
+    --dark: #041c29; /*darkblue)*/
+ 
+}
+.dark {
+    color: var(--dark);
+}
+.light {
+    color: var(--light);
 }
 /*----------------------xx//Root Styles//xx---------------------------*/
 
@@ -30,7 +39,7 @@ h1 {
     color: rgba(255,255,255,.8);
 }
 .navbar {
-    border-bottom: 2px solid var(--clr-mn-2);
+    border-bottom: 2px solid var(----green);
     width: 90%;
     left: 5%;
 }
@@ -45,14 +54,18 @@ h1 {
 /*----------------------xx//Navbar Style//xx---------------------------*/
 
 /*----------------------//Hero Style//---------------------------*/
-.hero {
-    color: rgba(255,255,255,.8);;
+.hero-container {
+    color: var(--light); 
+    height: 65vh;
 }
-.container {
-    margin-top: 150px;
+.hero-info {
+    margin-top: 200px;
 }
+/* .container {
+    margin: auto auto;
+} */
 .title {
-    color: var(--clr-mn-2);
+    color: var(--light);
 }
 .quick-pitch {
     width: 50ch;
@@ -67,6 +80,112 @@ h1 {
     border-radius: 50%;
 }
 /*----------------------xx//Hero Style//xx---------------------------*/
+
+/*----------------------xx//How it works Style//xx---------------------------*/
+
+.how-it-works { /*Overall section wrapper*/
+    background-color: var(--light);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.how-tagline {
+    padding-bottom: 1rem;
+
+}
+.steps {
+    padding-bottom: 1rem;
+}
+.steps > * {
+    display: block;
+    margin-left: 20px;
+
+}
+
+.how-head {
+    color: var(--clr-mn-1);
+    padding: 1rem 0 .5rem;
+    text-align: center;
+
+}
+
+.how-info-box {
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*source for below - https://www.w3docs.com/tools/code-editor/17742*/
+.how-info-box {
+    /* border: 2px solid lightblue; */
+    height: auto;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.fas, .far {
+    font-size: 2rem;
+}
+.icon-bg {
+    background: #ffc0c0;
+    padding:20px;
+    border-radius: 50%;
+}
+.proposal {
+    padding: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+    }   
+.proposal-txt {
+    /* width: 75ch; */
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.btn-proposal {
+    padding-top: 2rem;
+}
+/*----------------------xx//How it works Style//xx---------------------------*/
+
+/*----------------------//Why it works Style//---------------------------*/
+.why-it-works {
+    padding-top: 2rem;
+}
+.why-it-works p {
+    color: var(--light);
+}
+
+.about-image{
+    height: 80vh;
+    background-image: url(/assets/images/net_blk.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 48, 73, 0.7);
+}
+.about-image p {
+    color: var(--light);
+    font-size: 2em;
+    line-height: 1.2em;
+    text-align: right;
+    padding-top: .5em;
+}
+/*----------------------xx//Why it works Style//xx---------------------------*/
+
+/*----------------------//Footer Style//---------------------------*/
+.green {
+    color: var(--green);
+}
+.copyright {
+    font-size: 1.5rem;
+}
+.designer {
+    margin-left: 2rem ;
+    font-size: 1rem;
+}
+.text, .heading {
+    text-align: center;
+}
+
+/*----------------------xx//Footer Style//xx---------------------------*/
 
 /*----------------------//Components//---------------------------*/
 
@@ -86,7 +205,7 @@ h1 {
     transform: scalex(0);
     transform-origin: right;
     transition: transform 250ms ease-in;
-    color: var(--clr-mn-2);
+    color: var(--green);
 }
 .fancy-link-2::after {
     width: 83%;
@@ -94,28 +213,15 @@ h1 {
 .fancy-link:hover::after {
     transform: scaleX(1);
     transform-origin: left;
-    color: var(--clr-mn-2);
+    color: var(--green);
 }
 /*Wayne's code below*/
 a.fancy-link {
     font-size: 1.1em;
-    color: var(--clr-mn-2);
+    color: var(--green);
 }
 a.fancy-link:hover {
-    color: var(--clr-mn-2);
+    color: var(--green);
 }
 /*-------------xx//Buttons//xx------------- */
 /*----------------------xx//Components//xx---------------------------*/
-
-/*----------------------//Footer Style//---------------------------*/
-.green {
-    color: var(--clr-mn-2);
-}
-.copyright {
-    font-size: 1.5rem;
-}
-.designer {
-    margin-left: 2rem ;
-    font-size: 1rem;
-}
-/*----------------------xx//Footer Style//xx---------------------------*/
