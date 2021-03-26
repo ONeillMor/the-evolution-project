@@ -19,7 +19,7 @@ h1 {
 }
 :root {
     --clr-mn-1: #0d5175;
-    ----green: #4CAF50;
+    --green: #4CAF50;
     --light: rgba(255, 255, 255, 0.85);
     --dark: #041c29; /*darkblue)*/
  
@@ -39,7 +39,7 @@ h1 {
     color: rgba(255,255,255,.8);
 }
 .navbar {
-    border-bottom: 2px solid var(----green);
+    border-bottom: 2px solid var(--green);
     width: 90%;
     left: 5%;
 }
@@ -61,7 +61,6 @@ h1 {
 .hero-info {
     margin-top: 200px;
 }
-
 .title {
     color: var(--light);
 }
@@ -80,15 +79,13 @@ h1 {
 /*----------------------xx//Hero Style//xx---------------------------*/
 
 /*----------------------xx//How it works Style//xx---------------------------*/
-
-.how-it-works { /*Overall section wrapper*/
+.how-it-works {
     background-color: var(--light);
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 .how-tagline {
     padding-bottom: 1rem;
-
 }
 .steps {
     padding-bottom: 1rem;
@@ -97,14 +94,11 @@ h1 {
     display: block;
     margin-left: 20px;
 }
-
 .how-head {
     color: var(--clr-mn-1);
     padding: 1rem 0 .5rem;
     text-align: center;
-
 }
-
 .how-info-box {
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -191,8 +185,37 @@ h1 {
 .btm-row {
     padding: 2rem 0 1rem 0;
 }
-
 /*----------------------xx//Visions introduction//xx---------------------------*/
+
+/*----------------------//Visions Selector//---------------------------*/
+.vision-selector {
+    margin-top: 1em;
+    text-align: center;
+    line-height: 1.5em;
+}
+.progress {
+    height: 35px;
+    margin: 1em auto;
+}
+.progress-bar {
+    background-color: var(--green);
+}
+.progress-bar p {
+    font-size: 1.5em;
+    margin: auto;
+    text-transform: capitalize;
+}
+.subheading p {
+    font-size: 1.2rem;
+}
+.chart {
+    padding: 1rem 0 3rem;
+}
+/*----------------------xx//Visions Selector//xx---------------------------*/
+
+/*----------------------//Visions presenter//---------------------------*/
+
+/*----------------------xx//Visions presenter//xx---------------------------*/
 
 
 /*----------------------//Footer Style//---------------------------*/
