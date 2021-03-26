@@ -8,27 +8,40 @@
 	vertical-align: baseline;
     font-family: 'Titillium Web', sans-serif;
 }
-
+ul {
+    list-style-type: none;
+  }
 body {
     line-height: 1.2rem;
     background-color: var(--clr-mn-1);
 }
-h1 {
+.heading {
     font-size: 3rem;
-    font-weight: 700;
 }
+.subheading {
+    font-size: 1.5rem;
+}
+.text-highlight {
+    font-size: 1.2rem;
+}
+.left {
+    text-align: left;
+}
+
 :root {
     --clr-mn-1: #0d5175;
     --green: #4CAF50;
     --light: rgba(255, 255, 255, 0.85);
     --dark: #041c29; /*darkblue)*/
- 
 }
 .dark {
     color: var(--dark);
 }
 .light {
     color: var(--light);
+}
+.green {
+    color: var(--green);
 }
 /*----------------------xx//Root Styles//xx---------------------------*/
 
@@ -165,10 +178,10 @@ h1 {
 .vision-intro {
     background-color: var(--light);
     text-align: center;
-}
-.heading-dark {
-    text-align: center;
     padding: 2rem 0 1.5rem;
+}
+.vi-intro {
+    padding-top: 1rem;
 }
 .vision-steps {
     /* border: 1px solid red; */
@@ -205,29 +218,57 @@ h1 {
     margin: auto;
     text-transform: capitalize;
 }
-.subheading p {
-    font-size: 1.2rem;
-}
 .chart {
     padding: 1rem 0 3rem;
 }
 /*----------------------xx//Visions Selector//xx---------------------------*/
 
 /*----------------------//Visions presenter//---------------------------*/
+.vi-presenter {
+    margin-top: 1em;
+    text-align: center;
+    line-height: 1.5em;
+}
+.vi-presenter * span {
+    color: red;
+}
+.vi-presenter img {
+    width: 350px;
+}
+.monkey-row {
+    padding-top: 2rem;
+}
+.list li {
+    line-height: 2rem;
+    font-size: 1.25rem;
+}
+.vi-topics {
+    text-align: left;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.list {
+    text-align: left;
+}
+.vi-topics li {
+    list-style-type: square;
+    /* list-style-position: inside; */
+}
+.col-sm-7 {
+    padding-top: 1rem;
+}
 
 /*----------------------xx//Visions presenter//xx---------------------------*/
 
 
 /*----------------------//Footer Style//---------------------------*/
-.green {
-    color: var(--green);
-}
+
 .copyright {
-    font-size: 1.5rem;
+    font-size: 1.5em ;
 }
 .designer {
     margin-left: 2rem ;
-    font-size: 1rem;
+    font-size: 1rem ;
 }
 .text {
     text-align: center;
