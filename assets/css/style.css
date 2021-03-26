@@ -7,6 +7,7 @@
 	font-size: 100%;
 	vertical-align: baseline;
     font-family: 'Titillium Web', sans-serif;
+    line-height: 1.3rem;
 }
 ul {
     list-style-type: none;
@@ -14,6 +15,9 @@ ul {
 body {
     line-height: 1.2rem;
     background-color: var(--clr-mn-1);
+}
+html {
+    scroll-behavior: smooth;
 }
 .heading {
     font-size: 3rem;
@@ -28,8 +32,9 @@ body {
     text-align: left;
 }
 
+
 :root {
-    --clr-mn-1: #0d5175;
+    --blue: #0d5175;
     --green: #4CAF50;
     --light: rgba(255, 255, 255, 0.85);
     --dark: #041c29; /*darkblue)*/
@@ -49,20 +54,33 @@ body {
 /*Overrule bootstrap styles*/
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
+    color: var(--light);
 }
 .navbar {
     border-bottom: 2px solid var(--green);
     width: 90%;
     left: 5%;
+
 }
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
+
 .nav-item {
     padding-left: 2rem;
     font-size: 1.2rem;
+}
+.background-hero {
+    background: radial-gradient(at right 50%, #0a3d58,#0d5175,#1473a7);
+}
+.navbar-text {
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--light);
+    
+}
+.navbar-text:hover {
+    color: var(--green);
+    transition: .5s;
+    text-decoration: none;
 }
 /*----------------------xx//Navbar Style//xx---------------------------*/
 
@@ -75,11 +93,15 @@ body {
     margin-top: 200px;
 }
 .title {
-    color: var(--light);
+    color: var(--green);
+    font-weight: 600;
 }
 .quick-pitch {
     width: 50ch;
     padding-top: .1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
 }
 .hero-left {
     padding-right: 4rem;
@@ -88,6 +110,10 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    border: 5px solid var(--green);
+}
+.link {
+    scroll-behavior: smooth;
 }
 /*----------------------xx//Hero Style//xx---------------------------*/
 
@@ -114,6 +140,7 @@ body {
 }
 .how-info-box {
     padding: 1rem;
+    background-color: var(--blue);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /*source for below - https://www.w3docs.com/tools/code-editor/17742*/
@@ -129,12 +156,15 @@ body {
     font-size: 2rem;
 }
 .icon-bg {
-    background: #ffc0c0;
+    background: var(--green);
     padding:20px;
     border-radius: 50%;
+    margin-top: -70px;
 }
 .proposal {
     padding: .5rem;
+    background-color: var(--blue);
+    color: var(--light);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 
@@ -152,7 +182,8 @@ body {
 
 /*----------------------//Why it works Style//---------------------------*/
 .why-it-works {
-    padding-top: 2rem;
+    padding: 2rem 0 2rem;
+    background-color: var(--blue);
 }
 .why-it-works p {
     color: var(--light);
@@ -201,33 +232,54 @@ body {
 /*----------------------xx//Visions introduction//xx---------------------------*/
 
 /*----------------------//Visions Selector//---------------------------*/
+
 .vision-selector {
-    margin-top: 1em;
+    padding-top: 2rem;
     text-align: center;
     line-height: 1.5em;
+    background-color: var(--blue);
 }
 .progress {
     height: 35px;
     margin: 1em auto;
+    background-color: var(--blue);
 }
 .progress-bar {
-    background-color: var(--green);
+    background-color: var(--light);
+    border-radius: 20px;
 }
 .progress-bar p {
     font-size: 1.5em;
     margin: auto;
     text-transform: capitalize;
+    color: var(--blue);
+}
+/* .progress-bar::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: var(--green);
+} */
+.progress-bar:hover {
+    background-color: var(--green);
+
 }
 .chart {
     padding: 1rem 0 3rem;
+    
+}
+.blue-back {
+    background-color: var(--blue);
 }
 /*----------------------xx//Visions Selector//xx---------------------------*/
 
 /*----------------------//Visions presenter//---------------------------*/
+
 .vi-presenter {
-    margin-top: 1em;
+    padding-top: 2rem;
     text-align: center;
     line-height: 1.5em;
+    background-color: var(--blue);
 }
 .vi-presenter * span {
     color: red;
@@ -252,17 +304,25 @@ body {
 }
 .vi-topics li {
     list-style-type: square;
+    line-height: 2rem;
+    font-size: 1.25rem;
     /* list-style-position: inside; */
 }
 .col-sm-7 {
     padding-top: 1rem;
+}
+.vi-topics * < {
+    color: var(--green);
 }
 
 /*----------------------xx//Visions presenter//xx---------------------------*/
 
 
 /*----------------------//Footer Style//---------------------------*/
-
+footer {
+    background-color: var(--blue);
+    border-top: 5px solid var(--green);
+}
 .copyright {
     font-size: 1.5em ;
 }
@@ -307,7 +367,7 @@ body {
 }
 /*Wayne's code below*/
 a.fancy-link {
-    font-size: 1.1em;
+    font-size: 1.5em;
     color: var(--green);
 }
 a.fancy-link:hover {

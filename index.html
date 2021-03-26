@@ -20,10 +20,11 @@
     <title>The Evolution Project</title>
   </head>
   <body>
+    <div class="background-hero">
     <header>
       <!--Original navigation source-code https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975-->
       <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-        <a class="navbar-brand" href="#">The Evolution Project</a>
+        <h1 class="subheading green">The Evolution Project</h1>
         <button
           class="navbar-toggler"
           type="button"
@@ -67,7 +68,6 @@
               <div class="row justify-content-center align-self-center">
                 <h1 class="title">The Evolution Project</h1>
               </div>
-
               <div class="row justify-content-center">
                 <p class="quick-pitch">
                   The Evolution Project is a non-political organisation that
@@ -77,7 +77,7 @@
               </div>
               <div class="buttons row justify-content-center">
                 <div class="link">
-                  <a href="#" class="col btn fancy-link fancy-link-2"
+                  <a href="#how-it-works-1" class="col btn fancy-link fancy-link-2"
                     >How it Works</a
                   >
                 </div>
@@ -97,6 +97,7 @@
         </div>
       </div>
     </section>
+  </div>
     <!---------------------------xx//Hero Section//xx----------------------------------->
 
     <!---------------------------//How it works Section//----------------------------------->
@@ -106,7 +107,7 @@
           <div class="row d-flex align-items-center">
             <div class="col how-info">
               <div class="row justify-content-center">
-                <h1 class="heading">How It Works</h1>
+                <h1 id="how-it-works-1" class="heading green">How It Works</h1>
               </div>
               <div class="row justify-content-center how-tagline">
                 <p class="subheading">
@@ -115,7 +116,7 @@
                 </p>
               </div>
               <!---------------------------//Row with 4 steps//----------------------------------->
-              <div class="row justify-content-center steps">
+              <div class="row justify-content-center steps light">
                 <div class="col how-info-box">
                   <div>
                     <i class="fas fa-users icon-bg"></i>
@@ -179,10 +180,10 @@
               </div>
               <div class="row justify-content-center btn-proposal">
                 <div class="link">
-                  <a href="#" class="col btn">Why It Works</a>
+                  <a href="#why-it-works" class="col btn fancy-link">Why It Works</a>
                 </div>
                 <div class="link">
-                  <a href="#" class="col btn">See It In Action</a>
+                  <a href="#vision-intro" class="col btn fancy-link">See It In Action</a>
                 </div>
               </div>
             </section>
@@ -195,7 +196,7 @@
     <!---------------------------xx//How it works Section//xx----------------------------------->
 
     <!---------------------------//Why it works Section//----------------------------------->
-    <section class="why-it-works">
+    <section id="why-it-works" class="why-it-works">
       <div class="container">
         <div class="row">
           
@@ -239,10 +240,10 @@
             </p>
             <div class="row justify-content-center">
               <div class="link">
-                <a href="#" class="col btn">See It In Action</a>
+                <a href="#vision-intro" class="col btn fancy-link">See It In Action</a>
               </div>
               <div class="link">
-                <a href="#" class="col btn">Become A Member</a>
+                <a href="#" class="col btn fancy-link">Become A Member</a>
               </div>
             </div>
           </div>
@@ -252,7 +253,7 @@
     <!---------------------------xx//Why it works Section//xx----------------------------------->
 
     <!---------------------------//Visions introduction//----------------------------------->
-    <section class="vision-intro">
+    <section id="vision-intro" class="vision-intro">
       <h1 class="heading">From Visions To Proposals</h1>
       <div class="container vi-intro">
         <div class="row">
@@ -300,13 +301,14 @@
     <!---------------------------xx//Visions introduction//xx----------------------------------->
 
     <!---------------------------//Visions Selector//----------------------------------->
-    <section class="container vision-selector light">
-      <h1 class="heading">Top Visions</h1>
+<section class="blue-back">
+  <div class="container vision-selector light">
+      <h1 class="heading green">Top Visions</h1>
       <div class="text-highlight">
         <p>Click on a vision heading to view the path to that vision below. <br>The visions are organised based on how many mentions they got
           at meetings.</p>
       </div>
-
+      <section>
     </div>
     <div class="chart">
       <div class="progress justify-content-center">
@@ -340,14 +342,15 @@
         </div>
       </div>
     </div>
-    </section>
+  </div>
+</section>
 <!---------------------------xx//Visions Selector//xx----------------------------------->
 
 <!---------------------------//Visions Presenter//----------------------------------->
 
-<section>
-<div class="container vi-presenter">
-  <h1 class="heading green">Clean Oceans</h1>
+<section class="vi-presenter">
+<div class="container">
+  <h1 class="heading green vision-title">Clean Oceans</h1>
   <div class="row md light">
     <p class="text-highlight">To date, The Evolution Project has facilitated <span>265</span> meetings taking place throughout the island of Ireland 
     and has a total of <span>1536</span> members. The vision of Clean Oceans has been discussed in <span>212</span> of those meetings ranking it in <span>3rd</span> place.</p>
@@ -356,7 +359,7 @@
   <div class="row monkey-row">
     <div class="col-md-1"></div>
     <div class="col-sm-4"><div class="img_1 col-md-4"><img src="/assets/images/monkey_earth (sm).jpg" alt="Monkeys in space looking at earth"></div></div>
-    <div class="col-sm-7"><h4 class="subheading green left">We see a world where:</h4>
+    <div class="col-sm-7 background"><h4 class="subheading green left">We see a world where:</h4>
       <div>
           <ul class="list light">
             <li>- The Ocean and seas are clean and healthy.</li>
@@ -389,7 +392,7 @@
       <ul>
         <li>Support / Copy Plastic to money - Haiti</li>
         <li>Sign: Packaging reform</li>
-        <li>Support The Ocean Clean up Project</li>
+        <li><a href="https://theoceancleanup.com/" target="_blank"> Support The Ocean Clean up Project</a></li>
       </ul></div>
   </div>
 
