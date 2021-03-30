@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="contact-form.css" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/0cddf29566.js"
       crossorigin="anonymous"
@@ -395,21 +396,25 @@
         <li><a href="https://theoceancleanup.com/" target="_blank"> Support The Ocean Clean up Project</a></li>
       </ul></div>
   </div>
-
-  <div class="row vi-info">
-  
-
-
-
-
-
-</div>
-
-
-
-
-
-  
+    </section>
+    <section class="contact-form-wrapper">
+      <h1 class="header ">Contact Us!</h1>
+      <div class="contact-from">
+        <form id="contact-form" method="post" action="contact-form-process.php" >
+          <div class="cf-name">
+          <input type="text" name="name" class="form-control" placeholder="Please Enter Your Name" required>
+        </div>
+        <div class="cf-email">
+          <input type="email" name="email" class="form-control fc-email" placeholder="Please Enter Your Email" required>
+        </div>
+        <div class="cf-message">
+          <textarea name="message" class="form-control fc-message" id="" cols="30" rows="10" placeholder="Please Enter Your Message" required></textarea>
+        </div>
+        <div class="cf-send">
+          <input type="submit" class="form-control cf-btn send" value="Send">
+        </div>
+        </form>
+      </div>
     </section>
     <!---------------------------//Footer Section//----------------------------------->
     <footer class="text-center text-white">

@@ -33,6 +33,7 @@ html {
 }
 
 
+
 :root {
     --blue: #0d5175;
     --green: #4CAF50;
@@ -336,6 +337,31 @@ footer {
 
 
 /*----------------------xx//Footer Style//xx---------------------------*/
+/*----------------------//Contact Form Style//---------------------------*/
+.contact-form-wrapper {
+    width: 50%;
+    margin: auto;
+    padding-top: 3rem;
+    text-align: center;
+    background-color: var(--light);
+}
+.contact-form {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.cf-name, .cf-message, .cf-email, .cf-send {
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+}
+.cf-btn {
+    background-color: var(--blue);
+    color: var(--light);
+}
+.cf-btn:hover {
+    background-color: var(--green);
+}
 
 /*----------------------//Components//---------------------------*/
 
