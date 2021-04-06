@@ -280,6 +280,13 @@ html {
     line-height: 2rem;
     font-size: 1.25rem;
 }
+li a {
+        color: var(--light);
+}
+li a:hover {
+        color: var(--green);
+        text-decoration: none;
+}
 .col-sm-7 {
     padding-top: 1rem;
 }
