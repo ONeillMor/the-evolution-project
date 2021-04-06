@@ -295,6 +295,7 @@ li a:hover {
 footer {
     background-color: var(--blue);
     border-top: 5px solid var(--green);
+    padding-bottom: 1rem;
 }
 .copyright {
     font-size: 1.5em ;
