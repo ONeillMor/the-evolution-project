@@ -30,7 +30,7 @@ Launch version:
 
 - Promote and Provide information regarding to The Evolution Project.
 - View information form the meetings.
-- Have a feature for people to contact him through the site.
+- Have a contact us feature.
 
 ### External user’s goal:
 
@@ -69,14 +69,6 @@ Launch version:
 - Membership levels.
 
 
-#Working Updates
-
-24/03/2021
-Header and footer added. Both layouts came from examples online and have been edited and styled.
-
-25/03/2021
-How it works section has been added and styled a little.
-
 ###Sources:
 ######Header
 https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975
@@ -87,9 +79,9 @@ Styles have been changed to suit potential colour pallet.
 Standard burger icon that comes with bootstrap template is just an image but can be changed to a responsive css element in the future.
 
 
-
-
-######Footer
+###### Footer
 https://mdbootstrap.com/docs/standard/navigation/footer/
 
-Some icons removed and style edited, text changed and styled, designer details added.
+###### BUGS
+
+1. Padding on the proposals section in How it works is not right.

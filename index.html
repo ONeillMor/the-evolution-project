@@ -24,7 +24,7 @@
     <div class="background-hero">
     <header>
       <!--Original navigation source-code https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975-->
-      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <nav id="home" class="navbar navbar-expand-lg navbar-light navbar-custom .container-fluid">
         <h1 class="subheading green">The Evolution Project</h1>
         <button
           class="navbar-toggler"
@@ -43,13 +43,13 @@
         >
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="navbar-text" href="#">Home</a>
+              <a class="navbar-text" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-text" href="#">Visions</a>
+              <a class="navbar-text" href="#vision-intro">Visions</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-text" href="#">Contact</a>
+              <a class="navbar-text" href="#contact-form">Contact</a>
             </li>
           </ul>
         </div>
@@ -83,7 +83,7 @@
                   >
                 </div>
                 <div class="link">
-                  <a href="#" class="col btn fancy-link">Become A Member</a>
+                  <a href="#contact-form" class="col btn fancy-link">Contact us</a>
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@
               <!---------------------------//Proposal and buttons//----------------------------------->
               <section class="proposal">
               <div class="row justify-content-center">
-                <div class="">
+                <div class="pro-text">
                   <h4 class="how-head">Proposals</h4>
                   <p class="proposal-txt">
                     The flexible rubber of dreams, the Vision, meets the solid
@@ -244,7 +244,7 @@
                 <a href="#vision-intro" class="col btn fancy-link">See It In Action</a>
               </div>
               <div class="link">
-                <a href="#" class="col btn fancy-link">Become A Member</a>
+                <a href="#contact-form" class="col btn fancy-link">Contact Us</a>
               </div>
             </div>
           </div>
@@ -354,13 +354,13 @@
   <h1 class="heading green vision-title">Clean Oceans</h1>
   <div class="row md light">
     <p class="text-highlight">To date, The Evolution Project has facilitated <span>265</span> meetings taking place throughout the island of Ireland 
-    and has a total of <span>1536</span> members. The vision of Clean Oceans has been discussed in <span>212</span> of those meetings ranking it in <span>3rd</span> place.</p>
+    and has a total of <span>1536</span> members.<br> The vision of Clean Oceans has been discussed in <span>212</span> of those meetings ranking it in <span>3rd</span> place.</p>
   </div>
 
   <div class="row monkey-row">
     <div class="col-md-1"></div>
-    <div class="col-sm-4"><div class="img_1 col-md-4"><img src="/assets/images/monkey_earth (sm).jpg" alt="Monkeys in space looking at earth"></div></div>
-    <div class="col-sm-7 background"><h4 class="subheading green left">We see a world where:</h4>
+    <div class="col-md-4"><div class="img_1 col-md-4"><img src="/assets/images/monkey_earth (sm).jpg" alt="Monkeys in space looking at earth"></div></div>
+    <div class="col-md-7 background"><h4 class="subheading green left">We see a world where:</h4>
       <div>
           <ul class="list light">
             <li>- The Ocean and seas are clean and healthy.</li>
@@ -371,25 +371,25 @@
       </div></div>
   </div>
   <div class="row vi-topics light">
-    <div class="col-sm"><h4 class="green">Benefits : 125</h4>
+    <div class="col-sm space"><h4 class="green">Benefits : 125</h4>
       <ul>
         <li>Prevent environmental breakdown / catastrophe </li>
         <li>Protect sea life</li>
         <li>Create green job opportunities</li>
       </ul></div>
-    <div class="col-sm"><h4 class="green">Barriers : 42</h4>
+    <div class="col-sm space"><h4 class="green">Barriers : 42</h4>
       <ul>
         <li>Worldwide problem and has many causes</li>
         <li>Cost</li>
         <li>Technical Challenges</li>
       </ul></div>
-    <div class="col-sm"><h4 class="green">Solutions : 136</h4>
+    <div class="col-sm space"><h4 class="green">Solutions : 136</h4>
       <ul>
         <li>Ocean Clean-up Project</li>
         <li>Stop input of plastics / Biodegradable plastics</li>
         <li>Stop Bottom Trawling</li>
       </ul></div>
-    <div class="col-sm"><h4 class="green">Proposals : 22</h4>
+    <div class="col-sm space"><h4 class="green">Proposals : 22</h4>
       <ul>
         <li>Support / Copy Plastic to money - Haiti</li>
         <li>Sign: Packaging reform</li>
@@ -397,7 +397,7 @@
       </ul></div>
   </div>
     </section>
-    <section class="contact-form-wrapper">
+    <section id="contact-form" class="contact-form-wrapper">
       <h1 class="header ">Contact Us!</h1>
       <div class="contact-from">
         <form id="contact-form" method="post" action="contact-form-process.php" >
