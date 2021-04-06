@@ -16,20 +16,22 @@ The website will allow for the information attained in those meetings to be pres
 
 ---
 
-URL: 
+URL: www.TheEvolutionProject.ie
 
-GitHub:
+GitHub: https://github.com/ONeillMor/the-evolution-project-v1
 
-Launch version:
+Final version: (1.0)
 
 # Project brief:
+
+The goal of this project is to provide an information portal for the launch of The Evolution Project. Initially it will provide evidence of proof of concept with additional features added to it before launch. 
 
 ### Site owners goal:
 
 ---
 
 - Promote and Provide information regarding to The Evolution Project.
-- View information form the meetings.
+- View information collected from the meetings.
 - Have a contact us feature.
 
 ### External user’s goal:
@@ -41,18 +43,21 @@ Launch version:
 - Sign up to become a member and go to meetings. (Sign up feature to be included in when forum launches)
 
 ### Features:
+The website is divided into 3 sections
 
-- Home page with information about the project.
+- Home section with information about the project.
     - Sections include:
         - Hero.
         - How it Works.
         - Why it works (Details the philosophy behind the project.)
-- About page which details information from varies meetings.
+- About section which details information from varies meetings.
     - Sections include:
     - How it works (how to navigate the page)
         - (Future feature: Interactive interface using JS and a linked database)
     - List of the top visions (Will be interactive, static for now)
     - Details from one of the Visions
+- Contact us section.
+    -Will include 'Become a Member' button at launch.
 
 ---
 
@@ -60,17 +65,18 @@ Launch version:
 
 ---
 
-- Showcase most popular proposals.
+- Showcase most popular proposals with clickable ui.
+- Membership sign-up and members page.
+- Membership levels.
 - Promote upcoming meetings.
-- Link to wiki / forum (future features)
+- Link to wiki & forum (future features)
 - Interactive GUI to showcase most popular tags (Interactive tag cloud with popups)(JavaScript/PHP).
 - Wikipedia database with collated information from meetings.
 - Forum to discuss topis.
-- Membership levels.
 
 
-###Sources:
-######Header
+### Sources:
+###### Header
 https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bc9e2cb-609e-45b2-9bee-fd0aee9437e3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bc9e2cb-609e-45b2-9bee-fd0aee9437e3/Untitled.png)
