@@ -123,6 +123,7 @@ html {
     background-color: var(--light);
     padding-top: 2rem;
     padding-bottom: 2rem;
+    text-align: center;
 }
 .how-tagline {
     padding-bottom: 1rem;
@@ -167,9 +168,7 @@ html {
     background-color: var(--blue);
     color: var(--light);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-
-    }   
+}   
 .proposal-txt {
     /* width: 75ch; */
     text-align: center;
@@ -204,6 +203,7 @@ html {
     text-align: right;
     padding-top: .5em;
 }
+
 /*----------------------xx//Why it works Style//xx---------------------------*/
 
 /*----------------------//Visions introduction//---------------------------*/
@@ -312,9 +312,11 @@ html {
 .col-sm-7 {
     padding-top: 1rem;
 }
-.vi-topics * < {
+/* .vi-topics * < {
     color: var(--green);
-}
+} */
+
+  
 
 /*----------------------xx//Visions presenter//xx---------------------------*/
 
@@ -362,7 +364,42 @@ footer {
 .cf-btn:hover {
     background-color: var(--green);
 }
-
+/*----------------------xx//Contact Form Style//xx---------------------------*/
+/*----------------------//Media Queries//---------------------------*/
+@media only screen and (max-width: 600px) {
+    /*---------//Hero//----------*/
+    .hero-info {
+        margin-top: 150px;
+    }
+    .hero-container {
+        margin-left: 50px;
+    }
+    /*---------xx//Hero//xx----------*/
+    /*---------//How it works//----------*/
+    .how-tagline {
+        margin-left: 25px;
+        /* text-align: center; */
+    }
+    .how-info-box {
+        padding: 1rem;
+        margin: 5px;
+    }
+    .text {
+        margin: 0;
+        padding: 0;
+    }
+    /*---------xx//How it works//xx----------*/
+    /*---------//Why it works//----------*/
+    .about-image{
+        height: 40vh;
+    }
+    /*---------xx//Why it works//xx----------*/
+    /*---------//Visions Presenter//----------*/
+    .space {
+        min-width: 200px;
+    }
+}
+/*----------------------xx//Media Queries//xx---------------------------*/
 /*----------------------//Components//---------------------------*/
 
 /*-------------//Buttons//------------- */
