@@ -138,12 +138,7 @@ html {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /*source for .how-info-box - https://www.w3docs.com/tools/code-editor/17742*/
-.how-info-box {
-    height: auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+
 .fas, .far {
     font-size: 2rem;
 }
@@ -154,6 +149,7 @@ html {
     margin-top: -70px;
 }
 .proposal {
+    
     padding: .5rem;
     background-color: var(--blue);
     color: var(--light);
@@ -165,7 +161,7 @@ html {
     margin: auto;
 }
 .btn-proposal {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 /*----------------------xx//How it works Style//xx---------------------------*/
 /*----------------------//Why it works Style//---------------------------*/
@@ -399,7 +395,7 @@ a.fancy-link:hover {
     /*---------xx//How it works//xx----------*/
     /*---------//Why it works//----------*/
     .about-image{
-        height: 40vh;
+        height: 60vh;
     }
     /*---------xx//Why it works//xx----------*/
     /*---------//Visions Presenter//----------*/
@@ -412,9 +408,12 @@ a.fancy-link:hover {
     .hero-container h4 {
         font-size: medium;
     }
+    .hero-info {
+        margin-top: 50px;
+    }
     .title {
-        font-size: xx-large;
-        font-weight: 400;
+        font-size: x-large;
+        font-weight: 600;
     }
     .why-text {
         padding-top: 2rem;
