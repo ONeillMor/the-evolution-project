@@ -177,7 +177,7 @@ html {
 }
 .about-image{
     height: 80vh;
-    background-image: url(assets/images/net_blk.jpg);
+    background-image: url(/assets/images/net_blk.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 48, 73, 0.7);
