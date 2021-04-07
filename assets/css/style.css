@@ -382,7 +382,7 @@ footer {
     width: 87%;
     height: 2px;
     background-color: currentColor;
-    transform: scalex(0);
+    transform: scaleX(0);
     transform-origin: right;
     transition: transform 250ms ease-in;
     color: var(--green);
