@@ -11,6 +11,7 @@
 }
 ul {
     list-style-type: none;
+    list-style: inside;
   }
 body {
     line-height: 1.2rem;
@@ -80,24 +81,24 @@ html {
 /*----------------------//Hero Style//---------------------------*/
 .hero-container {
     color: var(--light); 
-    height: 65vh;
+    height: 50vh;
 }
 .hero-info {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .title {
     color: var(--green);
     font-weight: 600;
 }
 .quick-pitch {
-    width: 50ch;
+    /* width: 50ch; */
     padding-top: .1rem;
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.75rem;
 }
 .hero-left {
-    padding-right: 4rem;
+    padding-right: 2rem;
 }
 .logo-img {
     height: 200px;
@@ -176,7 +177,6 @@ html {
     color: var(--light);
 }
 .about-image{
-    height: 80vh;
     background-image: url(/assets/images/net_blk.jpg);
     background-size: cover;
     background-position: center;
@@ -200,7 +200,6 @@ html {
     padding-top: 1rem;
 }
 .vision-steps {
-    /* border: 1px solid red; */
     height: 200px;
     text-align: center;
     padding-top: 1.5rem;
@@ -213,6 +212,10 @@ html {
 }
 .btm-row {
     padding: 2rem 0 1rem 0;
+}
+.col-md img {
+    width: 100%;
+
 }
 /*----------------------xx//Visions introduction//xx---------------------------*/
 /*----------------------//Visions Selector//---------------------------*/
@@ -258,7 +261,7 @@ html {
     color: red;
 }
 .vi-presenter img {
-    width: 350px;
+    width: 100%;
 }
 .monkey-row {
     padding-top: 2rem;
@@ -333,40 +336,6 @@ footer {
     background-color: var(--green);
 }
 /*----------------------xx//Contact Form Style//xx---------------------------*/
-/*----------------------//Media Queries//---------------------------*/
-@media only screen and (max-width: 700px) {
-    /*---------//Hero//----------*/
-    .hero-info {
-        margin-top: 150px;
-    }
-    .hero-container {
-        margin-left: 50px;
-    }
-    /*---------xx//Hero//xx----------*/
-    /*---------//How it works//----------*/
-    .how-tagline {
-        margin-left: 25px;
-    }
-    .how-info-box {
-        padding: 1rem;
-        margin: 5px;
-    }
-    .text {
-        margin: 0;
-        padding: 0;
-    }
-    /*---------xx//How it works//xx----------*/
-    /*---------//Why it works//----------*/
-    .about-image{
-        height: 40vh;
-    }
-    /*---------xx//Why it works//xx----------*/
-    /*---------//Visions Presenter//----------*/
-    .space {
-        min-width: 200px;
-    }
-}
-/*----------------------xx//Media Queries//xx---------------------------*/
 /*----------------------//Components//---------------------------*/
 
 /*-------------//Buttons//------------- */
@@ -405,3 +374,60 @@ a.fancy-link:hover {
 }
 /*-------------xx//Buttons//xx------------- */
 /*----------------------xx//Components//xx---------------------------*/
+/*----------------------//Media Queries//---------------------------*/
+@media only screen and (max-width: 700px) {
+    /*---------//Hero//----------*/
+    .hero-info {
+        margin-top: 150px;
+    }
+    .hero-container {
+        margin-left: 50px;
+    }
+    /*---------xx//Hero//xx----------*/
+    /*---------//How it works//----------*/
+    .how-tagline {
+        margin-left: 25px;
+    }
+    .how-info-box {
+        padding: 1rem;
+        margin: 5px;
+    }
+    .text {
+        margin: 0;
+        padding: 0;
+    }
+    /*---------xx//How it works//xx----------*/
+    /*---------//Why it works//----------*/
+    .about-image{
+        height: 40vh;
+    }
+    /*---------xx//Why it works//xx----------*/
+    /*---------//Visions Presenter//----------*/
+    .space {
+        min-width: 200px;
+    }
+    .hero-container {
+        height: 60vh;
+    }
+    .hero-container h4 {
+        font-size: medium;
+    }
+    .title {
+        font-size: xx-large;
+        font-weight: 400;
+    }
+    .why-text {
+        padding-top: 2rem;
+}
+.col-md img {
+    padding-top: 1rem;
+
+}
+.progress-bar p {
+    font-size: small;
+}
+.contact-form-wrapper {
+    width: 80%;
+}
+}
+/*----------------------xx//Media Queries//xx---------------------------*/
