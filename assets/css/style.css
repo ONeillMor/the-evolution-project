@@ -124,7 +124,7 @@ html {
 }
 .steps > * {
     display: block;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .how-head {
     color: var(--clr-mn-1);
@@ -132,7 +132,7 @@ html {
     text-align: center;
 }
 .how-info-box {
-    padding: 1rem;
+    /* padding: 1rem; */
     background-color: var(--blue);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -334,7 +334,7 @@ footer {
 }
 /*----------------------xx//Contact Form Style//xx---------------------------*/
 /*----------------------//Media Queries//---------------------------*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     /*---------//Hero//----------*/
     .hero-info {
         margin-top: 150px;
