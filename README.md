@@ -98,7 +98,7 @@ The website has been tested on the following devices.
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/855abd07-aaea-4970-b0f3-0a1e601e7665/The_Evolution_Project.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/855abd07-aaea-4970-b0f3-0a1e601e7665/The_Evolution_Project.png)
+![Wireframe](/assets/images/The_Evolution_Project.png)
 
 ## **Sources:**
 
