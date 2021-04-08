@@ -4,99 +4,62 @@ Designed, built, and maintained by WON_MEDIA.co.uk
 
 ## **Introduction:**
 
----
+The aim and purpose of this website is to promote the ideas behind The Evolution Project and enable users to contact the organisation. 
+It is a beta version used to promote the concept and will be expanded to include additional features.
 
-The aim and purpose of this website is to promote The Evolution Project and enable its members to connect. share, and work together to create their shared vision for the world.
+The website will explain the process behind The Evolution Project and in the future allow people to become a member and host/attend meetings where they will participate in facilitated discussions to create shared visions for the benefits of all their communities, countries, and all mankind Member will discuss the benefits to these visions, possible barriers to those visions and solutions to those barrier.
 
-The website will explain the process behind The Evolution Project and allow people to become a member and host/attend meetings where they will participate in facilitated discussions to create shared visions for the benefits of all their communities, countries, and all mankind. Member will discuss the benefits to these visions and the possibly barriers and solutions to those barrier.
+The website will allow for the information attained in those meetings to be presented to the public where members can discuss the topic in the forum (Future feature) where they will be able to come up with proposals to help bring forward their vision.
 
-The website will allow for the information attained in those meetings to be presented to the public where members can the information, add their own verifiable argument either for or against until the community can create a proposals for the implementation of those visions.
+## **UX:**
 
-## **Website details**
+The website is designed so as to explain the concept behind The Evolution Project in a way as to demonstrate the how and why the information is gathered before shown the collective data on a dynamic interactive user interface (Future feature). 
+Users will be able to contact the organisation through a contact section linked at the end of the document. 
 
----
+- Wire-frame linked at bottom. 
 
-URL: [https://oneillmor.github.io/the-evolution-project/](https://oneillmor.github.io/the-evolution-project/)
+## **Features**
 
-GitHub: https://github.com/ONeillMor/the-evolution-project-v1
+### **Existing Features:**
+- Allows users to understanding the concept with the How and Why sections.
+- Users can view the results of 1 vision in the user interface.
+- Users can contact the organisation by using the contact form at the bottom of the page.
 
-## **Project brief:**
+### **Future Features:**
+- Dynamic interactive user interface where users can view user generated data.
+    - The data will be generated through facilitated meetings with community groups and through an online forum / wiki.
+    - Membership sign-up and members page.
+    - Membership levels.
+    - Promote upcoming meetings.
+    - Link to wiki & forum (future features).
 
-The goal of this project is to provide an information portal for the launch of The Evolution Project. Initially it will provide evidence of proof of concept with additional features added to it before launch.
+## **Technologies Used**
 
-### **Site owners goal:**
-
-- --
-- Promote and Provide information regarding to The Evolution Project.
-- View information collected from the meetings.
-- Have a contact us feature.
-
-### **External user’s goal:**
-
-- --
-- Find out information about the The Evolution Project
-- View proposals and information from the meetings.
-- Sign up to become a member and go to meetings. (Sign up feature to be included in when forum launches)
-
-### **Features:**
-
-The website is divided into 3 sections
-
-1. 1 Home section with information about the project.
-    - Hero
-    - How it works
-    - Why It works
-2. About section which details information from varies meetings.
-    - From visions to proposals explainer
-    - Top Visions presenter (Future feature: Interactive interface using JS and a linked database)
-    - Details from one of the Visions.
-- Contact us section.
-
--Will include 'Become a Member' button in future versions.
-
----
-
-### **Future features**
-
-- Showcase most popular proposals with clickable ui.
-- Membership sign-up and members page.
-- Membership levels.
-- Promote upcoming meetings.
-- Link to wiki & forum (future features)
-- Interactive GUI to showcase most popular tags (Interactive tag cloud with popups)(JavaScript/PHP).
-- Wikipedia database with collated information from meetings.
-- Forum to discuss topics.
-
-## Technologies:
-
----
-
-A list of technologies used within the project:
+The additional technologies used in the project are for layout purposes :
 
 - jQuery ([https://code.jquery.com/jquery-3.3.1.slim.min.js](https://code.jquery.com/jquery-3.3.1.slim.min.js)) Version 3.3.1
 - Bootstrap ([https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js)) Version 4.3.1
 - popper.js ([https://code.jquery.com/jquery-3.3.1.slim.min.js](https://code.jquery.com/jquery-3.3.1.slim.min.js)) Version 3.3.1
 
----
+## **Testing**
 
-Styles
-
-- Bootstrap ([https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css](https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css)_ Version 4.5.3
-- Font Awesome ([https://kit.fontawesome.com/0cddf29566.js](https://kit.fontawesome.com/0cddf29566.js))
-
-# Testing
-
----
-
-The website has been tested on the following devices.
+The site has been tested pre and post launch to ensure all relevant data is present and all internal and external links work. All external links open in a new tab. The website has been tested on the following devices:
 
 - Dell G3 15
-- Samsung Galaxy S5
+- One-Plus 5T
 - iPhone 6/7/8
 
-# Wireframes
+## **Deployment**
 
----
+This project has been deployed from the main branch using Git Pages. 
+
+## **Website details**
+
+URL: [https://oneillmor.github.io/the-evolution-project/](https://oneillmor.github.io/the-evolution-project/)
+
+GitHub: https://github.com/ONeillMor/the-evolution-project-v1
+
+## **Wire-frame**
 
 ![Wireframe](/assets/images/The_Evolution_Project.png)
 
@@ -106,11 +69,8 @@ The website has been tested on the following devices.
 
 https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bc9e2cb-609e-45b2-9bee-fd0aee9437e3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bc9e2cb-609e-45b2-9bee-fd0aee9437e3/Untitled.png)
-
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bc9e2cb-609e-45b2-9bee-fd0aee9437e3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/
 Styles have been changed to suit potential colour pallet.
-
-Standard burger icon that comes with bootstrap template is just an image but can be changed to a responsive css element in the future.
 
 **Footer**
 
