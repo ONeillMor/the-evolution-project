@@ -53,6 +53,10 @@ The site has been tested pre and post launch to ensure all relevant data is pres
 
 This project has been deployed from the main branch using Git Pages. 
 
+## **Bugs**
+
+- There is something effecting the layout of in the How it Works section. Tied to debug using chrome inspect tool.
+
 ## **Website details**
 
 URL: [https://oneillmor.github.io/the-evolution-project/](https://oneillmor.github.io/the-evolution-project/)
@@ -68,8 +72,6 @@ GitHub: https://github.com/ONeillMor/the-evolution-project-v1
 ### **Header**
 
 https://tutorialslink.com/Articles/Responsive-Navbar-with-Bootstrap/1975
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bc9e2cb-609e-45b2-9bee-fd0aee9437e3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/
 Styles have been changed to suit potential colour pallet.
 
 **Footer**
